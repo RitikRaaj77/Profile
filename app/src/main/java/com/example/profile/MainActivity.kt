@@ -181,13 +181,13 @@ class ProfileViewModel : ViewModel() {
 fun SplashScreen(modifier: Modifier = Modifier, onTimeout: () -> Unit) {
     // Animation constants
     val i = 15
-    val totalAnimationDuration = 3000L
+    val totalAnimationDuration = 2000L
     val fadeOutDuration = 1000L
     val fallDuration = 1000
 
     // Define 15 shades of blue for the rain effect
     val blueShades = List(i) { index ->
-        val intensity = 0xFF - (index * 5)
+        val intensity = 0xFF - (index * 20)
         Color(0xFF1565C0 + (intensity shl 16))
     }
 
@@ -567,7 +567,7 @@ fun ProfileScreen(viewModel: ProfileViewModel = viewModel(), modifier: Modifier 
             // Data Rows with Dividers
             DataRow(
                 label = "cashback balance",
-                value = "₹${userData.cashbackBalance}",
+                value = "₹ ${userData.cashbackBalance}",
                 stackValueBelowLabel = true
             )
             Divider(modifier = Modifier.padding(vertical = 8.dp), color = Color.Gray.copy(alpha = 0.3f), thickness = 1.dp)
