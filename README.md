@@ -29,7 +29,7 @@ Welcome to the Profile App, a sleek and modern Android application built using J
 <img src="./profile3.png" alt="Splash Screen 2" width="300"/>  
 <img src="./profile1.png" alt="Profile Screen" width="300"/>
 
-> The splash screen with animated falling lines (left) transitions to the profile screen (right), displaying user data and rewards.
+> The splash screen with animated falling lines transitions to the profile screen, displaying user data and rewards.
 
 ---
 
