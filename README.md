@@ -29,7 +29,7 @@ Welcome to the Profile App, a sleek and modern Android application built using J
 <img src="./profile3.png" alt="Splash Screen 2" width="300"/>  
 <img src="./profile1.png" alt="Profile Screen" width="300"/>
 
-> The splash screen with animated falling lines transitions to the profile screen, displaying user data and rewards.
+> The splash screen with animated falling lines (left) transitions to the profile screen (right), displaying user data and rewards.
 
 ---
 
@@ -37,7 +37,7 @@ Welcome to the Profile App, a sleek and modern Android application built using J
 
 > 📹 A quick demo of the Profile App, highlighting the splash screen animation and profile screen navigation.
 
-<video src="./profileVideo.mp4" controls width="100%"></video>
+<video src="./profileVideo.webm" controls width="100%"></video>
 
 ---
 
@@ -45,26 +45,31 @@ Welcome to the Profile App, a sleek and modern Android application built using J
 
 Download the latest APK here:
 
-[Download APK](./apk.apk)
+[📱 Download APK](./apk.apk)
 
 ---
 
 ## 🧑‍💻 Usage
 
-- Displays after splash screen with a 1-second fade-in.
-- Shows user data including credit score, cashback, bank balance, and rewards.
-- Scroll to view "YOUR REWARDS & BENEFITS" and "TRANSACTIONS & SUPPORT".
+- Upon launch, you’ll see the splash screen with animated falling blue lines.
+- After 2 seconds, a 1-second fade-out transitions to the profile screen.
+- View your data including credit score, lifetime cashback, bank balance, and rewards.
+- Scroll to view sections like "YOUR REWARDS & BENEFITS" and "TRANSACTIONS & SUPPORT".
 
 ---
 
 ## 🗂 Project Structure
 
-| File                  | Description                                                                   |
-|-----------------------|-------------------------------------------------------------------------------|
-| `MainActivity.kt`     | Entry point of the app, handles navigation and splash/profile transitions.   |
-| `SplashScreen.kt`     | Composable for the splash screen with animated lines and glowing text.       |
-| `ProfileScreen.kt`    | Composable for displaying user data in a scrollable layout.                  |
-| `ProfileViewModel.kt` | ViewModel to manage data fetching from Firebase.                             |
-| `UserData.kt`         | Data class representing user information fetched from Firebase.              |
+All functionality is organized within a single Kotlin file:
+
+| Section              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| `MainActivity.kt`    | Contains all app logic, including:                                          |
+|                      | - SplashScreen composable with animated lines and glowing text              |
+|                      | - ProfileScreen composable showing scrollable user data                     |
+|                      | - ProfileViewModel fetching data from Firebase                              |
+|                      | - `UserData` data class representing user info from Firebase                |
+|                      | - Navigation and transitions between screens                                |
 
 ---
+
