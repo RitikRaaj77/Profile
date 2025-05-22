@@ -37,7 +37,7 @@ Welcome to the Profile App, a sleek and modern Android application built using J
 
 > 📹 A quick demo of the Profile App, highlighting the splash screen animation and profile screen navigation.
 
-<video src="./profileVideo.webm" controls width="100%"></video>
+[▶️ Watch Demo Video on Google Drive](https://drive.google.com/file/d/1UN--Mwl_zvWORJOg6DkrBNkLBWH2HbYh/view?usp=drive_link)
 
 ---
 
