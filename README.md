@@ -49,12 +49,23 @@ Download the latest APK here:
 
 ---
 
+
 ## 🧑‍💻 Usage
 
-- Upon launch, you’ll see the splash screen with animated falling blue lines.
-- After 2 seconds, a 1-second fade-out transitions to the profile screen.
-- View your data including credit score, lifetime cashback, bank balance, and rewards.
-- Scroll to view sections like "YOUR REWARDS & BENEFITS" and "TRANSACTIONS & SUPPORT".
+- **Splash Screen**: Displays on app launch with animated falling lines and fades out after 2 seconds.
+- **Product Detail Screen**:
+  - Shows product image, name, original & discounted price, runtime.
+  - Includes countdown timer for deals.
+  - Displays product features, additional images, and a detailed description.
+  - Action Buttons: **ADD TO CART** and **BUY NOW**.
+
+- **Scroll to Explore**:
+  - View detailed product description.
+  - Extra features like:
+    - ✅ Genuine Products
+    - ⏳ Limited Time Deals
+    - 🚚 Free Shipping
+    - 🔒 Secure Payments
 
 ---
 
